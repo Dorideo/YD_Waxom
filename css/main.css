@@ -6,8 +6,15 @@ a{
     text-decoration: none;
     color:#ffffff;
 }
-intro__socialList_item_link:nth-of-type(2){
+.intro__socialList_item_link:nth-of-type(2){
     color: #998675;
+}
+.intro__sliderwrap{
+    position: relative;
+    margin-top: 25%;
+    margin-bottom: auto;
+    width: 100%;
+    height: 100%;
 }
 header{
     margin-top: 40px;
@@ -132,4 +139,10 @@ body{
     border-radius: 3px;
     font-weight: bold;
     line-height: 23px;
+}
+.slick-dots{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
 }
